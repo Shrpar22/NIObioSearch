@@ -1,0 +1,914 @@
+.desktop-1-child {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  background-color: var(--color-steelblue);
+  width: 1440px;
+  height: 29px;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.desktop-1-child3,
+.desktop-1-child4,
+.desktop-1-inner,
+.desktop-1-item,
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #F49292;
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  border-radius: var(--br-10xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 83px;
+  height: 32px;
+  mix-blend-mode: normal;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.desktop-1-child3,
+.desktop-1-child4,
+.desktop-1-inner,
+.rectangle-button {
+  left: 119px;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.desktop-1-child3,
+.desktop-1-child4,
+.rectangle-button {
+  left: 218px;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.desktop-1-child3,
+.desktop-1-child4 {
+  left: 317px;
+}
+.desktop-1-child2,
+.desktop-1-child3,
+.desktop-1-child4 {
+  left: 416px;
+}
+.desktop-1-child3,
+.desktop-1-child4 {
+  left: 515px;
+}
+.desktop-1-child4 {
+  left: 614px;
+}
+.about-nio,
+.contact-us,
+.home,
+.niobioinfo {
+  position: absolute;
+  top: 11px;
+  left: 23px;
+  font-size: var(--font-size-mini);
+  text-align: left;
+}
+.contact-us,
+.home,
+.niobioinfo {
+  left: 138px;
+}
+.contact-us,
+.niobioinfo {
+  left: 220px;
+}
+.contact-us {
+  left: 615px;
+}
+.people {
+  left: 528px;
+  display: inline-block;
+  width: 63px;
+  height: 17px;
+}
+.data,
+.people,
+.taxon-tree {
+  position: absolute;
+  top: 11px;
+  font-size: var(--font-size-mini);
+  text-align: left;
+}
+.data {
+  left: 341px;
+  display: inline-block;
+  width: 63px;
+  height: 17px;
+}
+.taxon-tree {
+  left: 416px;
+}
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 29px;
+  height: 116px;
+}
+.rectangle-icon {
+  left: 0;
+  width: 779px;
+  object-fit: cover;
+}
+.rectangle-div {
+  left: 654px;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+.bio {
+  font-family: var(--font-inter);
+}
+.biosearch {
+  margin: 0;
+}
+.blank-line {
+  margin: 0;
+  font-size: 10.5px;
+}
+.marine-biodiversity-database {
+  margin: 0;
+  font-size: 15.5px;
+  font-family: var(--font-inria-serif);
+}
+.biosearch-marine-biodiversity-container {
+  position: absolute;
+  top: 47px;
+  right: 24px;
+  color: #fff7f7;
+  display: inline-block;
+  width: 299px;
+  height: 40px;
+  font-size: 35px;
+}
+.line-div {
+  position: absolute;
+  top: 155.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+}
+.feedback {
+  text-decoration: none;
+  position: absolute;
+  top: 168px;
+  left: 9px;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+
+.time{
+  text-decoration: none;
+  position: absolute;
+  top: 150px;
+  left: 1215px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  width:100%;
+}
+
+.biosearch-on-wikipedia {
+  text-decoration: none;
+  top: 201px;
+  left: 9px;
+  color: inherit;
+}
+.biosearch-on-wikipedia,
+.marine-microbial-diversity,
+.search-hints {
+  position: absolute;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  text-align: left;
+}
+.marine-microbial-diversity {
+  margin: 0;
+  top: 201px;
+  left: 711px;
+  font-family: inherit;
+  width:100%;
+}
+.search-hints {
+  text-decoration: none;
+  top: 207px;
+  left: 1291px;
+  font-size:16px;
+  width:100%;
+  color: var(--color-gray-200);
+}
+
+
+.desktop-1-child5 {
+  position: absolute;
+  top: 237px;
+  left: 0;
+  background-color: var(--color-steelblue);
+  width: 100%;
+  height: 279px;
+}
+.organism-search {
+  position: absolute;
+  top: 248px;
+  left: calc(50% - 88px);
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 177px;
+  height: 21px;
+}
+.desktop-1-child6 {
+  position: absolute;
+  top: 318px;
+  left: 107px;
+  border-radius: var(--br-10xs);
+  background-color: #ffe2c0;
+  width: 1247px;
+  height: 174px;
+}
+.from,
+.location,
+.organism {
+  margin: 0;
+  position: absolute;
+  top: 276px;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-family: inherit;
+}
+.organism {
+  left: 183px;
+  display: inline-block;
+  width: 155px;
+  height: 20px;
+}
+.from,
+.location {
+  left: 590px;
+}
+.location {
+  left: 669px;
+  display: inline-block;
+  width: 145px;
+  height: 20px;
+}
+.desktop-1-child7,
+.rectangle-textarea {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 276px;
+  left: 348px;
+  width: 221px;
+  height: 25px;
+}
+.desktop-1-child7 {
+  left: 824px;
+}
+.desktop-1-child8 {
+  top: 387.25px;
+  left: 106.5px;
+  border-top: 1px solid var(--color-gray-300);
+  width: 1248px;
+  height: 1px;
+}
+.desktop-1-child10,
+.desktop-1-child8,
+.desktop-1-child9 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.desktop-1-child9 {
+  top: 317.5px;
+  left: 564.5px;
+  border-right: 1px solid var(--color-gray-300);
+  width: 1px;
+  height: 175px;
+}
+.desktop-1-child10 {
+  top: 444.46px;
+  left: 106.49px;
+  border-top: 1px solid var(--color-gray-300);
+  width: 1248px;
+  height: 1px;
+}
+.habitat,
+.importance-of-the-container {
+  position: absolute;
+  top: 347px;
+  left: 191px;
+  font-size: var(--font-size-xl);
+}
+.importance-of-the-container {
+  top: 404px;
+  left: 183px;
+  display: inline-block;
+  width: 293px;
+  height: 26px;
+}
+.threats-to-the-container {
+  position: absolute;
+  top: 452px;
+  left: 188px;
+  font-size: var(--font-size-xl);
+}
+.desktop-1-child11,
+.ellipse-input {
+  cursor: pointer;
+  position: absolute;
+  top: 326px;
+  left: 612px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.desktop-1-child11 {
+  top: 327px;
+  left: 1059px;
+}
+.desktop-1-child12,
+.desktop-1-child13,
+.desktop-1-child14,
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  cursor: pointer;
+  position: absolute;
+  top: 326px;
+  left: 892px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.desktop-1-child13,
+.desktop-1-child14,
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 365px;
+  left: 745px;
+}
+.desktop-1-child14,
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 327px;
+  left: 751px;
+}
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 364px;
+  left: 1006px;
+}
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 461px;
+  left: 765px;
+}
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  left: 612px;
+}
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 409px;
+  left: 781px;
+}
+.desktop-1-child19,
+.desktop-1-child20,
+.desktop-1-child21 {
+  left: 614px;
+}
+.desktop-1-child20,
+.desktop-1-child21 {
+  top: 364px;
+  left: 878px;
+}
+.desktop-1-child21 {
+  left: 612px;
+}
+.commercial {
+  position: absolute;
+  top: 408px;
+  left: 637px;
+}
+.benthic,
+.demersal,
+.estuarine,
+.open-sea,
+.rocky {
+  position: absolute;
+  top: 326px;
+  left: 619px;
+  display: inline-block;
+  width: 78px;
+  height: 17px;
+}
+.demersal,
+.estuarine,
+.open-sea,
+.rocky {
+  top: 363px;
+  left: 1016px;
+  width: 64px;
+  height: 24px;
+}
+.demersal,
+.estuarine,
+.open-sea {
+  left: 748px;
+  width: 99px;
+  height: 17px;
+}
+.estuarine,
+.open-sea {
+  left: 878px;
+  width: 101px;
+  height: 24px;
+}
+.estuarine {
+  left: 605px;
+  width: 104px;
+  height: 17px;
+}
+.bentho-pelagic,
+.pelagic,
+.reef-associated {
+  position: absolute;
+  top: 326px;
+  left: 1047px;
+  display: inline-block;
+  width: 168px;
+  height: 24px;
+}
+.bentho-pelagic,
+.pelagic {
+  top: 327px;
+  left: 882px;
+  width: 161px;
+  height: 17px;
+}
+.pelagic {
+  top: 326px;
+  left: 755px;
+  width: 79px;
+}
+.anthropogenic,
+.natural {
+  position: absolute;
+  top: 459px;
+  left: 637px;
+}
+.anthropogenic {
+  left: 791px;
+}
+.ecosystem-balance {
+  position: absolute;
+  top: 408px;
+  left: 733px;
+  display: inline-block;
+  width: 229px;
+}
+.desktop-1-child22,
+.desktop-1-child23 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 271px;
+  left: 1065px;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 70px;
+  height: 33px;
+}
+.desktop-1-child23 {
+  top: 273px;
+  left: 1145px;
+  width: 66px;
+  height: 31px;
+}
+.reset,
+.search {
+  position: absolute;
+  top: 276px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.search {
+  left: 1052px;
+  width: 78px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.specify{
+  position:absolute;
+  display: inline-block;
+  top: 601px;
+  left: 1105px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 0px;
+  font-size:18px;
+  background-color: rgb(217, 217, 217);
+  position: absolute;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 110px;
+  height: 33px
+} 
+
+.reset {
+  left: 1148px;
+  width: 60px;
+  height: 25px;
+}
+.desktop-1-child24,
+.desktop-1-child25 {
+  cursor: pointer;
+  position: absolute;
+  top: 326px;
+  left: 1227px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.desktop-1-child25 {
+  top: 408px;
+  left: 998px;
+}
+.sandy {
+  position: absolute;
+  top: 326px;
+  left: 1251px;
+}
+.desktop-1-child26 {
+  cursor: pointer;
+  position: absolute;
+  top: 364px;
+  left: 1099px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.dangers,
+.muddy {
+  position: absolute;
+  display: inline-block;
+}
+.muddy {
+  top: 363px;
+  left: 1104px;
+  width: 75px;
+  height: 17px;
+}
+.dangers {
+  top: 408px;
+  left: 991px;
+  width: 100px;
+}
+.desktop-1-child27 {
+  cursor: pointer;
+  position: absolute;
+  top: 364px;
+  left: 1199px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.coastal {
+  position: absolute;
+  top: 363px;
+  left: 1204px;
+  display: inline-block;
+  width: 78px;
+  height: 24px;
+}
+.desktop-1-child28,
+.desktop-1-child29 {
+  position: absolute;
+  top: 529.5px;
+  left: -3.5px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+}
+.desktop-1-child29 {
+  top: 917.5px;
+}
+.desktop-1-child30 {
+  position: absolute;
+  top: 538px;
+  left: 0;
+  background-color: var(--color-steelblue);
+  width: 100%;
+  height: 121px;
+}
+.taxonomy-search {
+  position: absolute;
+  top: 552px;
+  left: calc(50% - 87px);
+  font-size: var(--font-size-xl);
+}
+.desktop-1-child31,
+.rectangle-input {
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 602px;
+}
+.rectangle-input {
+  border: 0;
+  left: 762px;
+  width: 306px;
+  height: 25px;
+}
+.desktop-1-child31 {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+  padding: 0;
+  left: 1262px;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 68px;
+  height: 31px;
+}
+.familyorderclassphylumking,
+.search1 {
+  position: absolute;
+  display: inline-block;
+}
+.search1 {
+  text-decoration: none;
+  top: 607px;
+  left: 1248px;
+  font-size: var(--font-size-lg);
+  color: inherit;
+  width: 78px;
+  height: 21px;
+}
+.familyorderclassphylumking {
+  margin: 0;
+  top: 602px;
+  left: 78px;
+  font-size: var(--font-size-xl);
+  width: 672px;
+  height: 25px;
+  font-family: inherit;
+}
+.desktop-1-child32 {
+  position: absolute;
+  top: 672px;
+  left: 1.5px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1px;
+}
+.common-name-index,
+.scientific-name-index,
+.synonym-index {
+  position: absolute;
+  top: 681px;
+  left: 607px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 237px;
+  height: 21px;
+}
+.scientific-name-index,
+.synonym-index {
+  top: 851px;
+  left: 635px;
+  width: 170px;
+}
+.scientific-name-index {
+  top: 763px;
+  left: 602px;
+  width: 237px;
+}
+.a {
+  position: relative;
+}
+.a-group,
+.a-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 722px;
+  left: 497px;
+  width: 503px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-xl);
+  color: inherit;
+}
+.a-group {
+  top: 884px;
+}
+.desktop-1-child33 {
+  position: absolute;
+  top: 929px;
+  left: 0;
+  background-color: #00022c;
+  width: 100%;
+  height: 95px;
+}
+.a-container {
+  text-decoration: none;
+  position: absolute;
+  top: 807px;
+  left: 497px;
+  width: 503px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-xl);
+  color: inherit;
+}
+.desktop-1-child34 {
+  position: absolute;
+  top: 948px;
+  left: 12px;
+  width: 100%;
+  max-width:66px;
+  height: auto;
+  object-fit: cover;
+}
+.fishbase,
+.gbif {
+  position: absolute;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.gbif {
+  text-decoration: none;
+  top: 945px;
+  left: 569px;
+  width: 41px;
+  height: 24px;
+}
+.fishbase {
+  left: 632px;
+  width: 75px;
+}
+.fishbase,
+.iocoml,
+.obis {
+  text-decoration: none;
+  top: 945px;
+  height: 24px;
+}
+.obis {
+  position: absolute;
+  left: 720px;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 49px;
+}
+.iocoml {
+  left: 842px;
+  width: 69px;
+}
+.biosearch-v-12,
+.coml,
+.iocoml {
+  position: absolute;
+  display: inline-block;
+  color: var(--color-gray-100);
+}
+.coml {
+  text-decoration: none;
+  top: 945px;
+  left: 781px;
+  width: 49px;
+  height: 24px;
+}
+
+body {
+  font-family: Monospace;
+  font-size: 14pt;
+}
+blockquote {
+  font-family: Arial;
+  background-color: #F8EFBE;
+  border-left-color: #F4B514;
+}
+
+#contactme {
+  background-color: black;
+  color: white;
+  height: 180px;
+}
+
+
+#navbar {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.top-nav {
+  background-color: #671100;
+}
+
+.top-nav a {
+  color: #d3e316;
+}
+
+h1.headingStatement {
+  font-family: Monospace;
+  font-size: 2em;
+}
+
+
+/* bootstrap override */
+
+a.btn-primary:hover {
+  text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+.biosearch-v-12 {
+  top: 983px;
+  left: calc(50% - 311px);
+  font-size: 13px;
+  text-align: center;
+  height: 33px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

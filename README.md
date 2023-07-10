@@ -1,0 +1,4 @@
+# BioSearch
+bioSearch is a comprehensive website dedicated to providing information about various marine animals. With its user-friendly interface and extensive database, bioSearch serves as a valuable resource for individuals interested in learning more about marine life. Whether you are a marine enthusiast, a student, or simply curious about the creatures that inhabit our oceans, bioSearch offers a wealth of information at your fingertips.
+
+The website allows users to search for specific marine animals, providing detailed profiles for each species. These profiles encompass a wide range of information, including taxonomy, physical characteristics, habitat, behavior, diet, reproduction, and conservation status. Users can access high-quality photographs and illustrations, as well as engaging and informative descriptions that highlight key features and interesting facts about the animal.

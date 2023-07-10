@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link rel="./index.js">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="desktop-1-child"></div>
+      <button class="desktop-1-item" autofocus></button>
+      <button class="desktop-1-inner" autofocus></button>
+      <button class="rectangle-button" autofocus></button>
+      <button class="desktop-1-child1" autofocus></button>
+      <button class="desktop-1-child2" autofocus></button>
+      <button class="desktop-1-child3" autofocus></button>
+      <button class="desktop-1-child4" autofocus></button>
+      <div class="sidebar">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">bioSearch</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="about-nio" href="#">About NIO</a></li>
+                    <li><a class="niobioinfo" href="#">NIOBioinfo</a></li>
+                    <li><a class="data" href="#">Data</a></li>
+                    <li><a class="taxon-tree" href="#">Taxon Tree</a></li>
+                    <li><a class="people" href="#">People</a></li>
+                    <li><a class="contact-us" href="#">Contact Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+
+
+      <img
+        class="rectangle-icon"
+        alt="India on Globe"
+        src="globe.jpg"
+      />
+
+      <div class="rectangle-div"></div>
+      <div class="biosearch-marine-biodiversity-container">
+        <p class="biosearch">
+          <span>
+            <span class="bio">bio</span>
+            <b>Search</b>
+          </span>
+        </p>
+        <p class="blank-line">
+          <b>
+            <span>&nbsp;</span>
+          </b>
+        </p>
+        <p class="marine-biodiversity-database">
+          Marine Biodiversity Database of India
+        </p>
+      </div>
+      <div class="line-div"></div>
+      <a class="feedback" href="www.google.com">Feedback</a>
+      <h4 class="time"> Time is <span id="time"> </span></h4>
+      <script>
+       function refreshTime() {
+  const timeDisplay = document.getElementById("time");
+  const dateString = new Date().toLocaleString();
+  const formattedString = dateString.replace(", ", " - ");
+  timeDisplay.textContent = formattedString;
+}
+  setInterval(refreshTime, 1000);
+      </script>
+
+      <a
+        class="biosearch-on-wikipedia"
+        href="https://en.wikipedia.org/wiki/Biosearch_Technologies"
+        >bioSearch on Wikipedia</a
+      >
+      <h3 class="marine-microbial-diversity">
+        Marine Microbial Diversity Database of India
+      </h3>
+      <a class="search-hints" href="www.google.com">Search Hints</a>
+      <div class="desktop-1-child5"></div>
+      <b class="organism-search">Organism Search</b>
+      <div class="desktop-1-child6" id="Organ"></div>
+      <h4 class="organism">Organism:</h4>
+      <h4 class="from">From</h4>
+      <h4 class="location">Location:</h4>
+      <textarea class="rectangle-textarea"> </textarea>
+      <textarea class="desktop-1-child7"> </textarea>
+      <div class="desktop-1-child8"></div>
+      <div class="desktop-1-child9"></div>
+      <div class="desktop-1-child10"></div>
+      <b class="habitat">Habitat:</b>
+      <div class="importance-of-the-container">
+        <b>Importance </b>
+        <span>(of the organism):</span>
+      </div>
+      <div class="threats-to-the-container">
+        <b>Threats </b>
+        <span>(to the organism):</span>
+      </div>
+      <input class="ellipse-input" type="radio" autofocus />
+
+      <input class="desktop-1-child11" type="radio" autofocus />
+
+      <input class="desktop-1-child12" type="radio" autofocus />
+
+      <input class="desktop-1-child13" type="radio" autofocus />
+
+      <input class="desktop-1-child14" type="radio" autofocus />
+
+      <input class="desktop-1-child15" type="radio" autofocus />
+
+      <input class="desktop-1-child16" type="radio" autofocus />
+
+      <input class="desktop-1-child17" type="radio" autofocus />
+
+      <input
+        class="desktop-1-child18"
+        type="radio"
+        autofocus
+        defaultchecked="{true}"
+      />
+
+      <input
+        class="desktop-1-child19"
+        type="radio"
+        autofocus
+        defaultchecked="{true}"
+      />
+
+      <input class="desktop-1-child20" type="radio" autofocus />
+
+      <input class="desktop-1-child21" type="radio" autofocus />
+
+      <div class="commercial">Commercial</div>
+      <div class="benthic">Benthic</div>
+      <div class="rocky">Rocky</div>
+      <div class="demersal">Demersal</div>
+      <div class="open-sea">Open Sea</div>
+      <div class="estuarine">Estuarine</div>
+      <div class="reef-associated">Reef Associated</div>
+      <div class="bentho-pelagic">Bentho-Pelagic</div>
+      <div class="pelagic">Pelagic</div>
+      <div class="natural">Natural</div>
+      <div class="anthropogenic">Anthropogenic</div>
+      <div class="ecosystem-balance">Ecosystem balance</div>
+      <button
+        class="desktop-1-child22"
+        data-scroll-to="rectangleButton"
+      ></button>
+      <button class="desktop-1-child23"></button>
+      <div class="search" id="searchText">Search</div>
+        <input class="reset" type="reset">
+      <input class="desktop-1-child24" type="radio" autofocus />
+
+      <input
+        class="desktop-1-child25"
+        type="radio"
+        autofocus
+        defaultchecked="{true}"
+      />
+
+      <div class="sandy">Sandy</div>
+      <input class="desktop-1-child26" type="radio" autofocus />
+
+      <div class="muddy">Muddy</div>
+      <div class="dangers">Dangers</div>
+      <input class="desktop-1-child27" type="radio" autofocus />
+
+      <div class="coastal">Coastal</div>
+      <div class="desktop-1-child28"></div>
+      <div class="desktop-1-child29"></div>
+      <div class="desktop-1-child30"></div>
+      <b class="taxonomy-search">Taxonomy Search</b>
+      <input class="rectangle-input" type="text" maxlength minlength />
+
+      <button class="desktop-1-child31" autofocus></button>
+      <a class="search1" href="./Landing1.html">Search</a>
+      <h4 class="familyorderclassphylumking">
+        <b>Family/Order/Class/Phylum/Kingdom </b>
+        <span>name:</span>
+      </h4>
+      <select class="specify" id="species">
+        <option value="King">Kingdom</option>
+        <option value="Phy">Phylum</option>
+        <option value="Class">Class</option>
+        <option value="Order">Order</option>
+        <option value="Fam">Family</option>
+        <option value="Gen">Genus</option>
+        <option value="Spec">Species</option>
+      </select> 
+
+      <div class="desktop-1-child32"></div>
+      <b class="common-name-index">Common Name Index</b>
+      <b class="synonym-index">Synonym Index</b>
+      <b class="scientific-name-index">Scientific Name Index</b>
+      <a class="a-parent">
+        <div class="a">A</div>
+        <div class="a">B</div>
+        <div class="a">C</div>
+        <div class="a">D</div>
+        <div class="a">E</div>
+        <div class="a">F</div>
+        <div class="a">G</div>
+        <div class="a">H</div>
+        <div class="a">I</div>
+        <div class="a">J</div>
+        <div class="a">K</div>
+        <div class="a">L</div>
+        <div class="a">M</div>
+        <div class="a">N</div>
+        <div class="a">O</div>
+        <div class="a">P</div>
+        <div class="a">Q</div>
+        <div class="a">R</div>
+        <div class="a">S</div>
+        <div class="a">T</div>
+        <div class="a">U</div>
+        <div class="a">V</div>
+        <div class="a">X</div>
+        <div class="a">Y</div>
+        <div class="a">Z</div>
+      </a>
+      <a class="a-group">
+        <div class="a">A</div>
+        <div class="a">B</div>
+        <div class="a">C</div>
+        <div class="a">D</div>
+        <div class="a">E</div>
+        <div class="a">F</div>
+        <div class="a">G</div>
+        <div class="a">H</div>
+        <div class="a">I</div>
+        <div class="a">J</div>
+        <div class="a">K</div>
+        <div class="a">L</div>
+        <div class="a">M</div>
+        <div class="a">N</div>
+        <div class="a">O</div>
+        <div class="a">P</div>
+        <div class="a">Q</div>
+        <div class="a">R</div>
+        <div class="a">S</div>
+        <div class="a">T</div>
+        <div class="a">U</div>
+        <div class="a">V</div>
+        <div class="a">X</div>
+        <div class="a">Y</div>
+        <div class="a">Z</div>
+      </a>
+      <div class="desktop-1-child33"></div>
+      <a class="a-container">
+        <div class="a">A</div>
+        <div class="a">B</div>
+        <div class="a">C</div>
+        <div class="a">D</div>
+        <div class="a">E</div>
+        <div class="a">F</div>
+        <div class="a">G</div>
+        <div class="a">H</div>
+        <div class="a">I</div>
+        <div class="a">J</div>
+        <div class="a">K</div>
+        <div class="a">L</div>
+        <div class="a">M</div>
+        <div class="a">N</div>
+        <div class="a">O</div>
+        <div class="a">P</div>
+        <div class="a">Q</div>
+        <div class="a">R</div>
+        <div class="a">S</div>
+        <div class="a">T</div>
+        <div class="a">U</div>
+        <div class="a">V</div>
+        <div class="a">X</div>
+        <div class="a">Y</div>
+        <div class="a">Z</div>
+      </a>
+      <img
+        class="desktop-1-child34"
+        alt=""
+        src="download.jpg"
+      />
+
+      <a class="gbif" href="www.nio.org">GBIF</a>
+      <a class="fishbase" href="www.nio.org">Fishbase</a>
+      <a class="obis" href="www.nio.org">OBIS</a>
+      <a class="iocoml" href="www.nio.org">IOCoML</a>
+      <a class="coml" href="www.nio.org">CoML</a>
+      <b class="biosearch-v-12"
+        >bioSearch v 1.2,@ 2009,Bioinformatics Centre, National Institute of
+        Oceanography, Goa, India <br>Best Viewed at 1024 x 768 on Firefox 3*,
+        Microsoft Edge 7* and Google Chrome 2*</b
+      >
+    </div>
+
+    <script>
+      var searchText = document.getElementById("searchText");
+      if (searchText) {
+        searchText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangleButton']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+      <script src="./index.js">   </script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+.landing-page-1-child,
+.landing-page-1-item {
+  position: absolute;
+  top: 375px;
+  left: -0.54px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  width: 852px;
+  height: 1px;
+}
+.landing-page-1-item {
+  top: 468.75px;
+}
+.landing-page-1-inner {
+  position: absolute;
+  top: 132px;
+  left: 863px;
+  background-color: #92a1d3;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  width: 567px;
+  height: 314px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: calc(50% - 343px);
+  left: calc(50% + 177px);
+  width: 482px;
+  height: 243px;
+  object-fit: cover;
+}
+.clathria-microciona-atrasang1 {
+  font-weight: 700;
+}
+.clathria-microciona-atrasang {
+  margin-block-start: 0;
+  margin-block-end: 2px;
+}
+.demospongiae {
+  font-family: Inter;
+}
+.iucn-status-not {
+  margin: 0;
+}
+.clathria-microciona-atrasang-container {
+  position: absolute;
+  top: 131px;
+  left: 259px;
+  font-size: 18px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 579px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 452px;
+  left: 862px;
+  background-color: #92a1d3;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  width: 567px;
+  height: 314px;
+}
+.landing-page-1-child1 {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% + 180px);
+  width: 481px;
+  height: 254px;
+  object-fit: cover;
+}
+.landing-page-1-child2 {
+  position: absolute;
+  top: 132px;
+  left: 13px;
+  width: 224px;
+  height: 227px;
+  object-fit: cover;
+}
+.description {
+  margin-block-start: 0;
+  margin-block-end: 0.3px;
+}
+.description-members-of-container {
+  position: absolute;
+  top: 385px;
+  left: 31px;
+  font-size: 16px;
+  display: inline-block;
+  width: 736px;
+  height: 91px;
+}
+.common-name-s-container,
+.synonym-s-not-container {
+  position: absolute;
+  top: 483px;
+  left: 31px;
+  display: inline-block;
+  width: 307px;
+  height: 91px;
+}
+.common-name-s-container {
+  top: 655px;
+  width: 340px;
+}
+.biogeography-freddys-nook-container {
+  position: absolute;
+  top: 483px;
+  left: 426px;
+}
+.economic-importance-and-container {
+  position: absolute;
+  top: 649px;
+  left: 426px;
+  display: inline-block;
+  width: 323px;
+  height: 115px;
+}
+.line-div {
+  position: absolute;
+  top: 788.5px;
+  left: -0.5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  width: 1457px;
+  height: 1px;
+}
+.microciona-atrasanguinea-bower1 {
+  text-decoration: underline;
+}
+.microciona-atrasanguinea-bower {
+  color: inherit;
+}
+.literature-source-original-container {
+  position: absolute;
+  top: 801px;
+  left: 31px;
+  font-size: 13.5px;
+  color: inherit;
+  display: inline-block;
+  width: 1398px;
+  height: 130px;
+}
+.landing-page-1 {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 15px;
+  color: #000;
+  font-family: Inter;
+}
