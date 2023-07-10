@@ -13,53 +13,89 @@
 }
 .landing-page-1-inner {
   position: absolute;
-  top: 132px;
-  left: 863px;
+  top: 158px;
+  left: 950px;
   background-color: #92a1d3;
   border: 1px solid rgba(0, 0, 0, 0.75);
   box-sizing: border-box;
-  width: 567px;
-  height: 314px;
+  width: 520px;
+  height: 300px;
 }
+.bio {
+  font-family: var(--font-inter);
+}
+.biosearch {
+  margin: 0;
+}
+.blank-line {
+  margin: 0;
+  font-size: 10.5px;
+}
+.marine-biodiversity-database {
+  margin: 0;
+  font-size: 15.5px;
+  font-family: var(--font-inria-serif);
+}
+.biosearch-marine-biodiversity-container {
+  position: absolute;
+  top: 47px;
+  right: 24px;
+  color: #fff7f7;
+  display: inline-block;
+  width: 299px;
+  height: 40px;
+  font-size: 35px;
+}
+
+
 .rectangle-icon {
   position: absolute;
-  top: calc(50% - 343px);
-  left: calc(50% + 177px);
-  width: 482px;
-  height: 243px;
+  left: 0;
+  top:29px;
+  height:116px;
+  width: 779px;
   object-fit: cover;
 }
 .clathria-microciona-atrasang1 {
   font-weight: 700;
+  width:579px;
+  height:238px;
+  top:131px;
+  left:259px;
 }
-.clathria-microciona-atrasang {
-  margin-block-start: 0;
-  margin-block-end: 2px;
-}
+
 .demospongiae {
   font-family: Inter;
 }
 .iucn-status-not {
   margin: 0;
 }
-.clathria-microciona-atrasang-container {
-  position: absolute;
-  top: 131px;
-  left: 259px;
-  font-size: 18px;
-  white-space: pre-wrap;
-  display: inline-block;
-  width: 579px;
+.info
+{   
+    position: absolute;
+    top: 162px;
+    left: 275px;
+    font-size: 15px;
+    display: inline-block;
+    width:579px;
 }
+
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 29px;
+  height: 116px;
+}
+
 .rectangle-div {
   position: absolute;
-  top: 452px;
-  left: 862px;
+  top: 472px;
+  left: 950px;
   background-color: #92a1d3;
   border: 1px solid rgba(0, 0, 0, 0.75);
   box-sizing: border-box;
-  width: 567px;
-  height: 314px;
+  width: 520px;
+  height: 300px;
 }
 .landing-page-1-child1 {
   position: absolute;
@@ -71,10 +107,10 @@
 }
 .landing-page-1-child2 {
   position: absolute;
-  top: 132px;
+  top: 162px;
   left: 13px;
-  width: 224px;
-  height: 227px;
+  width: 190px;
+  height: 200px;
   object-fit: cover;
 }
 .description {
@@ -122,7 +158,7 @@
   left: -0.5px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
-  width: 1457px;
+  width: 100%;
   height: 1px;
 }
 .microciona-atrasanguinea-bower1 {
@@ -141,6 +177,9 @@
   width: 1398px;
   height: 130px;
 }
+
+
+
 .landing-page-1 {
   position: relative;
   background-color: #fff;
